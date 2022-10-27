@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 const program = require("commander");
+const chalk = require("chalk");
 
 program
     .command("create <app-name>")
@@ -23,6 +24,12 @@ program
 program
     .version(`qing-cli@${require("../package.json").version}`)
     .usage(`<command> [option]`);
+
+program.on('--help', function() {
+    console.log();
+    console.log(`Run ${chalk.cyan('qing-cli <command> --help')} show details`);
+    console.log();
+})
 
 //parse user input command
 program.parse(process.argv);

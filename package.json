@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/mawenqing1/qing-cli#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
     "commander": "^9.4.1"
   }
 }
