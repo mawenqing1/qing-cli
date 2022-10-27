@@ -1,0 +1,8 @@
+#! /usr/bin/env node
+
+const program = require("commander");
+
+program.version(`qing-cli@${require('../package.json').version}`).usage(`<command> [option]`)
+
+//parse user input command
+program.parse(process.argv);
