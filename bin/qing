@@ -2,7 +2,17 @@
 
 const program = require("commander");
 
-program.version(`qing-cli@${require('../package.json').version}`).usage(`<command> [option]`)
+program
+    .command("create <app-name>")
+    .description("create a new project")
+    .option("-f, --force", "overwrite target directory if it exists")
+    .action((name, cmd) => {
+        console.log(name, cmd);
+    })
+
+program
+    .version(`qing-cli@${require("../package.json").version}`)
+    .usage(`<command> [option]`);
 
 //parse user input command
 program.parse(process.argv);
