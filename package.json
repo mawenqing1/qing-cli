@@ -22,6 +22,7 @@
   "homepage": "https://github.com/mawenqing1/qing-cli#readme",
   "dependencies": {
     "chalk": "^4.1.2",
-    "commander": "^9.4.1"
+    "commander": "^9.4.1",
+    "fs-extra": "^10.1.0"
   }
 }

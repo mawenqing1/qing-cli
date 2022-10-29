@@ -8,7 +8,8 @@ program
     .description("create a new project")
     .option("-f, --force", "overwrite target directory if it exists")
     .action((name, cmd) => {
-        console.log(name, cmd);
+        require('../lib/create')(name, cmd)
+        // console.log(name, cmd);
     });
 
 program
