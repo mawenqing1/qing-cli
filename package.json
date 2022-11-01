@@ -1,7 +1,7 @@
 {
   "name": "qing-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "qing-cli",
   "main": "index.js",
   "bin": {
     "qing": "./bin/qing"
