@@ -1,10 +1,10 @@
 {
-  "name": "qing-cli",
+  "name": "mwq-cli",
   "version": "1.0.0",
   "description": "qing-cli",
   "main": "index.js",
   "bin": {
-    "qing": "./bin/qing"
+    "mwq": "./bin/qing"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

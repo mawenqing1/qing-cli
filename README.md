@@ -1,1 +1,1 @@
-# qing-cli
+# mwq-cli

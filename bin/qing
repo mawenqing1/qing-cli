@@ -23,7 +23,7 @@ program
     })
 
 program
-    .version(`qing-cli@${require("../package.json").version}`)
+    .version(`mwq-cli@${require("../package.json").version}`)
     .usage(`<command> [option]`);
 
 program.on('--help', function() {
